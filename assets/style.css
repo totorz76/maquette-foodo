@@ -1,0 +1,197 @@
+
+.roboto-body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+css 
+/* --- Reset / Normalize de base --- */
+
+/* Box sizing global pour tous les éléments */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins and paddings */
+body, h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd,
+ul, ol, li, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Listes sans décoration par défaut */
+ul, ol {
+  list-style: none;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images, vidéos, SVG, canvas — afficher de façon responsive, bloc, ne pas dépasser */
+img, picture, video, svg, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inputs / Buttons / selects hériteront de la police de caractère du body */
+input, button, textarea, select {
+  font: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Rendre plus lisible / éviter débordements de texte */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Corps de page : hauteur minimum + bonne interligne */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  width: 100%;
+  font-family: Roboto;
+}
+
+/* Décoration de texte par défaut plus propre */
+html {
+  -webkit-text-size-adjust: 100%; /* éviter redimensionnement texte sur iOS/Safari */
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: smaller;
+}
+
+
+
+/* overimg */
+
+.overimg {
+    background-image: url(images/home-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overimg h5 {
+    font-size: large;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.overimg p {
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 2rem;
+}
+
+.overimg a {
+    border: solid white 2px;
+    padding: 8px 2.5rem;
+
+}
+
+/* Gallery */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+text-align: center;
+display: block;
+border-bottom: solid 2px black;
+padding-bottom: 10px;
+margin: 3rem;
+}
+
+.container .container2 {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.content {
+    height: 100%;
+}
+
+.content h3 {
+    padding: 5px 0;
+}
+
+.content2 h3 {
+    padding: 5px 0;
+}
+
+.mcontent {
+    height: 100%;
+    width: 100%;
+}
+
+.content2 {
+    height: 100%;
+}
+
+
+/* Menu */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin-top: 4rem;
+}
+
+.menu .container2 {
+    display: flex;
+    justify-content: space-between ;
+    width: 60%;
+}
+
+span {
+    color: #5C5C5C;
+}
