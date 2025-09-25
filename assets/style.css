@@ -197,6 +197,12 @@ span {
     color: #5C5C5C;
 }
 
+.menu .box {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
 /* formulaire */
 
 .contact {
